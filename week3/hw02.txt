@@ -1,0 +1,6 @@
+1. With sshd package still installed
+
+root@ip-10-0-5-66:~# puppet apply -t /etc/puppet/manifests/site.pp 
+Notice: Compiled catalog for ip-10-0-5-66.us-west-2.compute.internal in environment production in 0.04 seconds
+Info: Applying configuration version '1563073061'
+Notice: Applied catalog in 0.02 seconds
