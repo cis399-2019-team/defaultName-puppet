@@ -17,6 +17,9 @@ class sshd {
 		enable	  => true,
 		ensure	  => running,
 		subscribe => File["/etc/ssh/sshd_config"],
+		require	  => [
+			Package["openshh-server"],
+		],
 	}
 
 	ssh_authorized_key { "henzik_pub_kp":
