@@ -1,4 +1,4 @@
-node ip-10-0-5-66 {
+node ip-10-0-5-201 {
 	include puppet
 	include sshd
 }
