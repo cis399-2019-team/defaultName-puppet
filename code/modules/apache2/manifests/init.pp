@@ -12,7 +12,7 @@ class apache2 {
 		require	=> Package["apache2"],
 	}
 
-	file { "/var/www/index.html":
+	file { "/var/www/html":
 		ensure	=> directory,
 		recurse	=> true,
 		mode	=> '444',
