@@ -1,62 +1,62 @@
 class user {
 	user { "devin":
-		ensure		=> present,
-		home		=> "/home/devin/",
-		managehome	=> true,
+		ensure     => present,
+		home       => "/home/devin/",
+		managehome => true,
 	}
 
 	user { "james":
-		ensure		=> present,
-		home		=> "/home/james/",
-		managehome	=> true,
+		ensure     => present,
+		home       => "/home/james/",
+		managehome => true,
 	}
 
 	user { "jerry":
-		ensure		=> present,
-		home		=> "/home/jerry/",
-		managehome	=> true,
+		ensure     => present,
+		home       => "/home/jerry/",
+		managehome => true,
 	}
 
 	user { "keir":
-		ensure		=> present,
-		home		=> "/home/keir/",
-		managehome	=> true,
+		ensure     => present,
+		home       => "/home/keir/",
+		managehome => true,
 	}
 
 	user { "kylie":
-		ensure		=> present,
-		home		=> "/home/kylie/",
-		managehome	=> true,
+		ensure     => present,
+		home       => "/home/kylie/",
+		managehome => true,
 	}
 
 	user { "lucas":
-		ensure		=> present,
-		home		=> "/home/lucas/",
-		managehome	=> true,
+		ensure     => present,
+		home       => "/home/lucas/",
+		managehome => true,
 	}
 
 	user { "mapu":
-		ensure		=> present,
-		home		=> "/home/mapu/",
-		managehome	=> true,
+		ensure     => present,
+		home       => "/home/mapu/",
+		managehome => true,
 	}
 
 	user { "owen":
-		ensure		=> present,
-		home		=> "/home/owen/",
-		managehome	=> true,
+		ensure     => present,
+		home       => "/home/owen/",
+		managehome => true,
 	}
 
 	user { "rico":
-		ensure		=> present,
-		home		=> "/home/rico/",
-		managehome	=> true,
+		ensure     => present,
+		home       => "/home/rico/",
+		managehome => true,
 	}
 
 	user { "stevev":
-		ensure		=> present,
-		home		=> "/home/stevev/",
-		managehome	=> true,
+		ensure     => present,
+		home       => "/home/stevev/",
+		managehome => true,
 	}
 
 	ssh_authorized_key { "devin_rsa":
@@ -120,38 +120,4 @@ class user {
 		key  => "AAAAC3NzaC1lZDI1NTE5AAAAILBL3wWzbtQXl6V3saF13p5TM1mdhyrYQZYOqTLw2RT8",
 	}
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
