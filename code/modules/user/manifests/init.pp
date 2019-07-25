@@ -1,62 +1,62 @@
 class user {
 	user { "devin":
-		ensure		=> present,
-		home		=> "/home/devin/",
-		managehome	=> true,
+		ensure     => present,
+		home       => "/home/devin/",
+		managehome => true,
 	}
 
 	user { "james":
-		ensure		=> present,
-		home		=> "/home/james/",
-		managehome	=> true,
+		ensure     => present,
+		home       => "/home/james/",
+		managehome => true,
 	}
 
 	user { "jerry":
-		ensure		=> present,
-		home		=> "/home/jerry/",
-		managehome	=> true,
+		ensure     => present,
+		home       => "/home/jerry/",
+		managehome => true,
 	}
 
 	user { "keir":
-		ensure		=> present,
-		home		=> "/home/keir/",
-		managehome	=> true,
+		ensure     => present,
+		home       => "/home/keir/",
+		managehome => true,
 	}
 
 	user { "kylie":
-		ensure		=> present,
-		home		=> "/home/kylie/",
-		managehome	=> true,
+		ensure     => present,
+		home       => "/home/kylie/",
+		managehome => true,
 	}
 
 	user { "lucas":
-		ensure		=> present,
-		home		=> "/home/lucas/",
-		managehome	=> true,
+		ensure     => present,
+		home       => "/home/lucas/",
+		managehome => true,
 	}
 
 	user { "mapu":
-		ensure		=> present,
-		home		=> "/home/mapu/",
-		managehome	=> true,
+		ensure     => present,
+		home       => "/home/mapu/",
+		managehome => true,
 	}
 
 	user { "owen":
-		ensure		=> present,
-		home		=> "/home/owen/",
-		managehome	=> true,
+		ensure     => present,
+		home       => "/home/owen/",
+		managehome => true,
 	}
 
 	user { "rico":
-		ensure		=> present,
-		home		=> "/home/rico/",
-		managehome	=> true,
+		ensure     => present,
+		home       => "/home/rico/",
+		managehome => true,
 	}
 
 	user { "stevev":
-		ensure		=> present,
-		home		=> "/home/stevev/",
-		managehome	=> true,
+		ensure     => present,
+		home       => "/home/stevev/",
+		managehome => true,
 	}
 
 	ssh_authorized_key { "devin_rsa":
@@ -104,8 +104,7 @@ class user {
 	ssh_authorized_key { "owen_rsa":
 		user => "owen",
 		type => "ssh-rsa",
-		key  => "AAAAB3NzaC1yc2EAAAADAQABAAABAQDCxtgnXB0yhKhxicNB8/qizjY398qG/eLlFUaQW0JKRTxmeJWn15hU2vcVf/i7U3l7e9n+eHuvH4mnMv0fmtWzx31s3ZfkOpzTq7jezwdmq80vLEL4ah4wpmZryS87dv8iRdGc61k788bWdmbQsUScYyuD/Ppfc9Q9wFDjJalbghm1mwoSTZ7XxDYcV5vZKFl9cNH51X2TzW54Pq6s5Z73KXJnGJYB5fhHtIgMJF8t2aPPF0ER2hhIEEU+zOhLM0cj3Ll+LLUD1YtKYcURvRkt7iJKyencxU9fqT8nfJPvjm9t1elrz5bSR4Xk+Pod8PT1qKFzaOjsLYk7lJZ9yO/9
-",
+		key  => "AAAAB3NzaC1yc2EAAAADAQABAAABAQDCxtgnXB0yhKhxicNB8/qizjY398qG/eLlFUaQW0JKRTxmeJWn15hU2vcVf/i7U3l7e9n+eHuvH4mnMv0fmtWzx31s3ZfkOpzTq7jezwdmq80vLEL4ah4wpmZryS87dv8iRdGc61k788bWdmbQsUScYyuD/Ppfc9Q9wFDjJalbghm1mwoSTZ7XxDYcV5vZKFl9cNH51X2TzW54Pq6s5Z73KXJnGJYB5fhHtIgMJF8t2aPPF0ER2hhIEEU+zOhLM0cj3Ll+LLUD1YtKYcURvRkt7iJKyencxU9fqT8nfJPvjm9t1elrz5bSR4Xk+Pod8PT1qKFzaOjsLYk7lJZ9yO/9",
 	}
 
 	ssh_authorized_key { "rico_rsa":
@@ -120,38 +119,4 @@ class user {
 		key  => "AAAAC3NzaC1lZDI1NTE5AAAAILBL3wWzbtQXl6V3saF13p5TM1mdhyrYQZYOqTLw2RT8",
 	}
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
