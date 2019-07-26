@@ -1,61 +1,61 @@
 class user {
 	user { "devin":
 		ensure     => present,
-		home       => "/home/devin/",
+		home       => "/home/devin",
 		managehome => true,
 	}
 
 	user { "james":
 		ensure     => present,
-		home       => "/home/james/",
+		home       => "/home/james",
 		managehome => true,
 	}
 
 	user { "jerry":
 		ensure     => present,
-		home       => "/home/jerry/",
+		home       => "/home/jerry",
 		managehome => true,
 	}
 
 	user { "keir":
 		ensure     => present,
-		home       => "/home/keir/",
+		home       => "/home/keir",
 		managehome => true,
 	}
 
 	user { "kylie":
 		ensure     => present,
-		home       => "/home/kylie/",
+		home       => "/home/kylie",
 		managehome => true,
 	}
 
 	user { "lucas":
 		ensure     => present,
-		home       => "/home/lucas/",
+		home       => "/home/lucas",
 		managehome => true,
 	}
 
 	user { "mapu":
 		ensure     => present,
-		home       => "/home/mapu/",
+		home       => "/home/mapu",
 		managehome => true,
 	}
 
 	user { "owen":
 		ensure     => present,
-		home       => "/home/owen/",
+		home       => "/home/owen",
 		managehome => true,
 	}
 
 	user { "rico":
 		ensure     => present,
-		home       => "/home/rico/",
+		home       => "/home/rico",
 		managehome => true,
 	}
 
 	user { "stevev":
 		ensure     => present,
-		home       => "/home/stevev/",
+		home       => "/home/stevev",
 		managehome => true,
 	}
 
