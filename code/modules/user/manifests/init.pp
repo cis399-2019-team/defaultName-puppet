@@ -41,6 +41,13 @@ class user {
 		shell      => '/bin/bash',
 	}
 
+	user { "manhim":
+		ensure     => present,
+		home       => "/home/manhim",
+		managehome => true,
+		shell      => '/bin/bash',
+	}
+
 	user { "mapu":
 		ensure     => present,
 		home       => "/home/mapu",
@@ -103,6 +110,12 @@ class user {
 		user => "lucas",
 		type => "ssh-rsa",
 		key  => "AAAAB3NzaC1yc2EAAAADAQABAAABAQDB3DSqNr3YM9/B+mlVgmG+Q4n+Q2T8crk+F36CI43bB7kM+WeIEl3lJ279ExpI9y4KI/Yuh7eDWFgHriDB0xyq7IQnWvsKVhT4aWJv4Yrjde9UeD+NPUoRgbB8NScBWBUo+aI/VZAUVCg1xKyrxbcj89SBM1FrC8jZalz95VXR/rpJzSTQFN0c9KVZHfsCOBrGdAC9bbMES42Yqo5elnh7JfBsdqnYL+HHqkT7AyVcuqlBC4u+ZYoXmz5da4KyeyIEGFrDQM7h+dnyKQh1caRu7YyxmTvXA6OSjYE4rZtKQ9WZU02yB6o7CxEE/P8xa2mAZQEgUnjUmSXxRHFrobmX",
+	}
+
+	ssh_authorized_key { "manhim_rsa":
+		user => "manhim",
+		type => "ssh-rsa",
+		key  => "AAAAB3NzaC1yc2EAAAADAQABAAABAQC7gX4g8t3LJojLJKNPUnfb9hcSo+GJzkzriJsN56Rsft3Xz65WXvJTE22ujP9HLOLhT353MsNfEuOTgIeg1r4V2RRRRngF2DOXlMNo9uTa2RHWw2a4jJGFvfN19rdCaeC5jWPrirc2J4z4zwygRYkcZhSiQPJHzZNZH6tP3qlKrJSBypx8H8cxwcqGMKFWS21Tfhywv/KN5xsu2VuwI71DNcQeEIi7sDkYJ33mKE8NpNUNn3tW1Y1/rlqN21WJJNsqEEFb/ogNtUGPdySgfDyJk3i41QSEadyLp9ea8+wOG5KY2iudhxK4GDUNpRI030hh2Rg0OMESWY3sFF2LHbbL",
 	}
 
 	ssh_authorized_key { "mapu_rsa":
