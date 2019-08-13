@@ -4,6 +4,7 @@ node ip-10-0-5-201 {
 	include apache2
 	include user
 	include dovecot
+	include mail
 }
 
 node ip-10-0-5-44 {
@@ -12,4 +13,5 @@ node ip-10-0-5-44 {
 	include apache2
 	include user
 	include dovecot
+	include mail
 }
