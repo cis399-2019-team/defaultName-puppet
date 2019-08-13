@@ -3,6 +3,7 @@ node ip-10-0-5-201 {
 	include sshd
 	include apache2
 	include user
+	include dovecot
 }
 
 node ip-10-0-5-44 {
@@ -10,4 +11,5 @@ node ip-10-0-5-44 {
 	include sshd
 	include apache2
 	include user
+	include dovecot
 }
