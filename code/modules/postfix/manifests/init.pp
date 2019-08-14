@@ -1,4 +1,4 @@
-class mail {
+class postfix {
 	package { "mailutils":
 		ensure => installed,
 	}
