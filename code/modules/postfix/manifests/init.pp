@@ -10,6 +10,7 @@ class postfix {
 
 	file { "/etc/postfix/main.cf":
 		ensure     => present,
+		notify     => Service["postfix"],
 		mode       => '444',
 		owner      => 'root',
 		group      => 'root',
