@@ -9,8 +9,8 @@ class postfix {
 	}
 
 	file { "/etc/postfix/main.cf":
-		ensure	=> present,
-		source	=> "puppet:///modules/postfix/main.cf",
-		myorigin = "/etc/$hostname",
+		ensure   => present,
+		source   => "puppet:///modules/postfix/main.cf",
+		myorigin => "/etc/$hostname",
 	}
 }
